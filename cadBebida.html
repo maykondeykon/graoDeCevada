@@ -12,113 +12,127 @@
 
 <body>
     <main>
-        <h1 class="mainTitle">Cadastro de cerveja</h1>
+        <section class="topo">
+            <aside class="imgLogoTopo">
+                <img src="img/logo2.png">
+            </aside>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="cadBebida.html">Cadastro de Cerveja</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="ranking.html">Ranking</a></li>
+                </ul>
+            </nav>
+        </section>
+
         <section class="container">
+            <h3 class="pageTitle">Cadastro de Cerveja</h3>
             <form class="" action="" method="post">
 
                 <label>Marca:
-                        <input name="marca" value="" placeholder="Digite a marca" autofocus required>
-                    </label>
+                      <input name="marca" value="" placeholder="Digite a marca" autofocus required>
+                  </label>
 
                 <div class="radioGroup">
                     <label>Categoria da cerveja:
-                        </label>
+                      </label>
                     <label class="catLabel">
-                            Premium
-                            <input type="radio" name="categoria" value="">
-                        </label>
+                          Premium
+                          <input type="radio" name="categoria" value="">
+                      </label>
 
                     <label class="catLabel">
-                            Especiais
-                            <input type="radio" name="categoria" value="">
-                        </label>
+                          Especiais
+                          <input type="radio" name="categoria" value="">
+                      </label>
                 </div>
 
                 <label>Embalagem:
-                        <select class="" name="embalagem" required>
-                            <option value="">Selecione</option>
-                            <option value="1">Lata</option>
-                            <option value="2">Litrão</option>
-                            <option value="3">Litrinho</option>
-                            <option value="4">Long neck</option>
-                            <option value="5">Garrafas</option>
-                        </select>
-                    </label>
+                      <select class="" name="embalagem" required>
+                          <option value="">Selecione</option>
+                          <option value="1">Lata</option>
+                          <option value="2">Litrão</option>
+                          <option value="3">Litrinho</option>
+                          <option value="4">Long neck</option>
+                          <option value="5">Garrafas</option>
+                      </select>
+                  </label>
 
                 <label>Fermentacao:
-                        <select class="" name="fermentacao" required>
-                            <option value="">Selecione</option>
-                            <option value="1">Ale</option>
-                            <option value="2">Lager</option>
-                        </select>
-                    </label>
+                      <select class="" name="fermentacao" required>
+                          <option value="">Selecione</option>
+                          <option value="1">Ale</option>
+                          <option value="2">Lager</option>
+                      </select>
+                  </label>
 
                 <label>Litragem:
-                        <select class="" name="litragem" required>
-                            <option value="">Selecione</option>
-                            <option value="1">Até 335ml</option>
-                            <option value="2">Entre 335ml e 600ml</option>
-                            <option value="3">Acima de 600ml</option>
-                        </select>
-                    </label>
+                      <select class="" name="litragem" required>
+                          <option value="">Selecione</option>
+                          <option value="1">Até 335ml</option>
+                          <option value="2">Entre 335ml e 600ml</option>
+                          <option value="3">Acima de 600ml</option>
+                      </select>
+                  </label>
 
                 <label>Nacionalidade:
-                        <select class="" name="nacionalidade" required>
-                            <option value="">Selecione</option>
-                            <option value="1">Nacional</option>
-                            <option value="2">Internacional</option>
-                        </select>
-                    </label>
+                      <select class="" name="nacionalidade" required>
+                          <option value="">Selecione</option>
+                          <option value="1">Nacional</option>
+                          <option value="2">Internacional</option>
+                      </select>
+                  </label>
 
                 <label>Pais de origem:
-                        <select class="" name="paisOrigem" required>
-                            <option value="">Selecione</option>
-                            <option value="1">Brasil</option>
-                            <option value="2">Alemanha</option>
-                            <option value="3">Argentina</option>
-                            <option value="4">Bélgica</option>
-                            <option value="5">EUA</option>
-                            <option value="6">Inglaterra</option>
-                            <option value="7">México</option>
-                            <option value="8">Uruguai</option>
-                        </select>
-                    </label>
+                      <select class="" name="paisOrigem" required>
+                          <option value="">Selecione</option>
+                          <option value="1">Brasil</option>
+                          <option value="2">Alemanha</option>
+                          <option value="3">Argentina</option>
+                          <option value="4">Bélgica</option>
+                          <option value="5">EUA</option>
+                          <option value="6">Inglaterra</option>
+                          <option value="7">México</option>
+                          <option value="8">Uruguai</option>
+                      </select>
+                  </label>
 
                 <label>Sabor:
-                        <select class="" name="sabor" required>
-                            <option value="">Selecione</option>
-                            <option value="1">Adocicada</option>
-                            <option value="2">Amarga</option>
-                            <option value="3">Forte</option>
-                            <option value="4">Frutada</option>
-                            <option value="5">Suave</option>
-                        </select>
-                    </label>
+                      <select class="" name="sabor" required>
+                          <option value="">Selecione</option>
+                          <option value="1">Adocicada</option>
+                          <option value="2">Amarga</option>
+                          <option value="3">Forte</option>
+                          <option value="4">Frutada</option>
+                          <option value="5">Suave</option>
+                      </select>
+                  </label>
 
                 <label>Tipo de cerveja:
-                        <select class="" name="tipoCerveja" required>
-                            <option value="">Selecione</option>
-                            <option value="1">Amber Lager</option>
-                            <option value="2">Cerveja de trigo</option>
-                            <option value="3">Dark Lager</option>
-                            <option value="4">India Pale Ale(IPA)</option>
-                            <option value="5">Pale Ale</option>
-                            <option value="6">Pale Lager</option>
-                            <option value="7">Pilsner</option>
-                            <option value="8">Porter</option>
-                            <option value="9">Specialty Beer</option>
-                            <option value="10">Stout</option>
-                        </select>
-                    </label>
+                      <select class="" name="tipoCerveja" required>
+                          <option value="">Selecione</option>
+                          <option value="1">Amber Lager</option>
+                          <option value="2">Cerveja de trigo</option>
+                          <option value="3">Dark Lager</option>
+                          <option value="4">India Pale Ale(IPA)</option>
+                          <option value="5">Pale Ale</option>
+                          <option value="6">Pale Lager</option>
+                          <option value="7">Pilsner</option>
+                          <option value="8">Porter</option>
+                          <option value="9">Specialty Beer</option>
+                          <option value="10">Stout</option>
+                      </select>
+                  </label>
 
                 <label>Faixa de preço:
-                        <select class="" name="faixaPreco" required>
-                            <option value="">Selecione</option>
-                            <option value="1">Até R$29,99</option>
-                            <option value="2">De R$30,00 a R$59,99</option>
-                            <option value="3">Acima de R$60,00</option>
-                        </select>
-                    </label>
+                      <select class="" name="faixaPreco" required>
+                          <option value="">Selecione</option>
+                          <option value="1">Até R$29,99</option>
+                          <option value="2">De R$30,00 a R$59,99</option>
+                          <option value="3">Acima de R$60,00</option>
+                      </select>
+                  </label>
 
                 <button type="submit">Salvar</button>
             </form>
@@ -128,5 +142,10 @@
         &copy; Maykon Deykon
     </footer>
 </body>
+
+</html>
+
+</html>
+>
 
 </html>
