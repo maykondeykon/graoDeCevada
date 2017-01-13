@@ -148,3 +148,16 @@ footer {
     padding: 1.5em 0 1.5em 1em;
     font-family: inherit;
 }
+
+.figureIndex {
+    padding: 0.5em;
+    border: 1px solid #ededed;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+}
+
+.figureIndex img {
+    max-width: 100%;
+}
