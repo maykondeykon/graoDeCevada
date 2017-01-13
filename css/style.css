@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis-Regular.otf");
+}
+
 body {
     font-family: 'Dosis', sans-serif;
     /*background: rgb(255, 255, 255);
@@ -37,6 +42,7 @@ main::after {
     font-weight: bold;
     padding: 2em 0;
     font-size: 1.4em;
+    color: #3a1f02;
 }
 
 .topo {
@@ -73,7 +79,7 @@ main::after {
     margin-left: 0.3em;
     display: inline-block;
     background-color: #ededed;
-    color: #333;
+    color: #3a1f02;
     text-decoration: none;
     border-bottom: 3px solid #ededed;
 }
@@ -156,8 +162,45 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0.5em;
+    box-shadow: 4px 4px 5px #888888;
 }
 
 .figureIndex img {
     max-width: 100%;
+}
+
+.rankingList li {}
+
+.figureRanking {
+    padding: 0.5em;
+    border: 1px solid #f7dc49;
+    max-width: 95%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    box-shadow: 4px 4px 5px #888888;
+    display: inline-block;
+    background-color: #f7dc49;
+}
+
+.figureRanking img {
+    max-width: 16%;
+    float: left;
+    border-right: 1px solid #ededed;
+    padding-right: 0.5em;
+}
+
+.figureRanking p {
+    margin-left: 19%;
+}
+
+.rankingNumber {
+    position: relative;
+    left: -2.3em;
+    top: -0.1em;
+    font-size: 3em;
+    color: #fff;
+    font-weight: lighter;
+    text-shadow: 2px 2px 4px #000000;
 }
