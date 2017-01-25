@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis-Regular.otf");
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar-brand {
+    padding: 7px 2px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #3a1f02;
+}
+
+ul.nav a:hover {
+    border-bottom: 2px solid #e5a42f;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.affix-top {
+    position: static;
+    top: -35px;
+}
+
+.affix+.container-fluid {
+    padding-top: 70px;
+}
+
+.topo {
+    background-color: #3a1f02;
+    border-bottom: .4rem solid #cb6908;
+    padding: 1.5em 0 1.5em 0;
+}
+
+.topo img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-image: url("../img/4.png");
+    color: #fff;
+    padding: 1.5em 0 1.5em 1em;
+    font-family: inherit;
+    position: absolute;
+    width: 100%;
+}
