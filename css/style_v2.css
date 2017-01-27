@@ -7,6 +7,10 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
+nav {
+    z-index: 2;
+}
+
 .navbar-brand {
     padding: 7px 2px;
 }
@@ -44,6 +48,56 @@ ul.nav a:hover {
 .topo img {
     margin-left: auto;
     margin-right: auto;
+}
+
+.pageTitle {
+    color: #3a1f02;
+    padding-bottom: 1em;
+}
+
+form {
+    padding-bottom: 1em;
+}
+
+form label:first-of-type {
+    color: maroon;
+}
+
+.media-body {
+    vertical-align: middle;
+}
+
+.media-list li {
+    background-color: #f7dc49;
+    border: 1px solid #f7dc49;
+    padding: 0.5em;
+    box-shadow: 4px 4px 5px #888888;
+}
+
+.thumbnail {
+    margin-bottom: 0;
+}
+
+.figureRanking {
+    height: 10em;
+}
+
+.rankingNumber {
+    font-size: 3em;
+    color: #fff;
+    font-weight: lighter;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    padding-left: 0.1em;
+}
+
+.noResize {
+    resize: none;
+}
+
+.btnLar {
+    background-color: #cb6908;
+    color: #fff;
 }
 
 footer {
