@@ -1,0 +1,29 @@
+{
+  "name": "graodecevada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maykon Deykon",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-csslint": "^1.0.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-lint": "0.0.1",
+    "gulp-rewrite-image-path": "0.0.4",
+    "gulp-string-replace": "^1.0.0",
+    "jquery": "^3.3.1",
+    "jshint": "^2.9.5"
+  },
+  "dependencies": {
+    "npm": "^6.0.1"
+  }
+}
